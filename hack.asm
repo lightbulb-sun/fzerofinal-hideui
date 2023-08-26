@@ -13,8 +13,8 @@ macro hideSprites(address, num)
     %overwrite(<address>, 4, <num>, !OFF_SCREEN_Y)
 endmacro
 
-!SPRITES_POSITION_ADDR = $becac
-!SPRITES_POSITION_NUM  = 2
+!SPRITES_POSITION_ADDR = $beca4
+!SPRITES_POSITION_NUM  = 4
 %hideSprites(!SPRITES_POSITION_ADDR, !SPRITES_POSITION_NUM)
 
 !SPRITES_TIMER_ADDR = $bec64
